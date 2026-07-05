@@ -438,7 +438,7 @@ export default function Home() {
   };
 
   return (
-    <div className={`min-h-screen font-sans ${darkMode ? 'bg-neutral-950 text-neutral-100' : 'bg-neutral-50 text-neutral-900'} transition-colors duration-200`}>
+    <div className={`min-h-screen font-sans ${darkMode ? 'dark bg-neutral-950 text-neutral-100' : 'bg-neutral-50 text-neutral-900'} transition-colors duration-200`}>
       
       {/* HEADER NAV */}
       <Header 
