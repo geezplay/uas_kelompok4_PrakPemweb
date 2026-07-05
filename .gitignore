@@ -41,6 +41,9 @@ yarn-error.log*
 next-env.d.ts
 
 # PowerPoint temporary lock files
+# PowerPoint files (ignored to prevent upload to GitHub)
+*.pptx
+*.ppt
 ~$*
 ~$*.pptx
 
